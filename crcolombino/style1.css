@@ -1,0 +1,219 @@
+body,td,th {
+font-family: "Trebuchet MS";
+font-size: 12px;
+color: black;
+}
+body {
+background: silver;
+margin-left: 18%;
+margin-top: 0px;
+margin-right: 0px;
+margin-bottom: 0px;
+}
+a:link {
+text-decoration: underline;
+color: navy;
+}
+a:visited {
+text-decoration: underline;
+color: teal;
+}
+a:hover {
+text-decoration: none;
+color: blue;
+}
+a:active {
+text-decoration: underline;
+}
+#wrapper{
+width:800px;
+}
+#header{
+background: silver; height:166px;
+width:100%;
+text-align:center;
+}
+h1{
+background:silver url(imagenes/logo.gif) top center no-repeat;
+width:800px;
+height:166px;
+margin:0 auto;
+}
+#title{text-align:center;
+color:navy;
+font-size:2em;}
+#nav{
+width:800px;
+background:#eee;
+border:2px solid navy;
+}
+#nav ul {
+margin:0;
+font-size:12px;
+padding:15px 50px 0;
+background:#f8f8f8;
+list-style:none;
+}
+#nav li {
+float:left;
+background:url(imagenes/left.gif) no-repeat left top;
+margin-right:10px;
+padding:0 0 0 9px;
+border-bottom:1px solid navy;
+}
+#nav a {
+float:left;
+display:block;
+background:url(imagenes/right.gif) no-repeat right top;
+padding:5px 17px 7px 6px;
+text-decoration:none;
+font-weight:normal;
+color:navy;
+}
+
+#nav a:hover {
+color:blue;
+text-decoration:underline;
+}
+#nav #current {
+background:url(imagenes/left.gif);
+}
+#nav #current a {
+background-image:url(imagenes/right.gif);
+color:navy;
+font-weight:bold;
+padding-bottom:9px;
+}
+.clear{
+clear:both;
+}
+#content{
+width:100%;
+padding-top:20px;
+padding-right:0;
+padding-left:0;
+padding-bottom:20px;
+}
+#leftcolumn{
+background: #eee;
+width:100%;
+border:2px solid navy;
+padding-right:0;
+padding-left:0;
+float:left;
+}
+#leftcolumn p
+{
+padding:0 10px 0 10px;}
+
+.imageholder {
+width: 33%;
+float: left;
+}
+
+.imageholder p {
+text-align: center;
+}
+.imageholder img {
+display: block;
+margin-right: auto;
+margin-left: auto;
+}
+.portafoto {
+width: 50%;
+float: left;
+}
+.portafoto p {
+text-align: center;
+}
+.portafoto img {
+display: block;
+margin-right: auto;
+margin-left: auto;
+}
+.portalogo {
+width: 25%;
+float: left;
+}
+.portalogo p {
+text-align: center;
+}
+.portalogo img {
+display: block;
+margin-right: auto;
+margin-left: auto;
+}
+.picleft {
+float : left;
+max-width : 150px;
+padding-left : 95px;
+padding-bottom : 10px;
+}
+
+.txtright {
+width : 500px;
+margin-top : 20px;
+float : right;
+}
+.center {text-align: center; }
+.center table {width: 80%; margin-left: auto; margin-right: auto; text-align: left; }
+.piefoto {
+background : #eee;
+padding : 0.5em 1em 1em 15px;
+font-size : 0.9em;
+width : 100%;
+width : 285px;
+border:2px solid navy;
+}
+.caption {text-align: right; padding-right:10%; font-size: 0.7em;}
+span.c3 {color:red; font-weight:bold;}
+span.c2 {color:green}
+span.c1 {color:blue}
+span.c4 {color:#000066; font-weight:bold;}
+p{text-align:justify;}
+h2{
+font-weight:500;
+margin:0;
+padding-bottom:2px;
+padding-left:12px;
+text-decoration:underline;
+}
+h3{
+color:navy;
+font-size:1.0em;
+font-weight:500;
+margin:0;
+padding-bottom:2px;
+}
+h4{
+color:navy;
+font-size:1.2em;
+font-weight:600;
+margin:0;
+padding-bottom:2px;
+}
+h5{
+color:navy;
+font-size:1.5em;
+font-weight:500;
+margin:0;
+padding-bottom:2px;
+}
+h6{
+font-size:1.0em;
+font-weight:500;
+margin:0;
+padding-bottom:2px;
+padding-left:12px;
+text-decoration:underline;
+}
+.image {text-align: center; }
+.image p {text-align: center; font-size: 0.7em;}
+.footer{
+width:100%;
+border:2px solid navy;
+padding-top:15px;
+padding-bottom:15px;
+text-align:center;
+background:#eee;
+}
